@@ -11,7 +11,7 @@ RUN apt-get update && \
 
 WORKDIR /app
 COPY package*.json ./
-RUN npm ci --omit=dev
+RUN npm install --production
 COPY . .
 
 CMD ["node", "index.js"]
