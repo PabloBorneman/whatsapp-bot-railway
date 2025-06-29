@@ -1,0 +1,18 @@
+{
+  "name": "camila-whatsapp-bot",
+  "version": "1.0.0",
+  "description": "Asistente de cursos del Ministerio de Trabajo – WhatsApp-Web.js + OpenAI",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "openai": "^4.0.0",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.22.1"
+  }
+}

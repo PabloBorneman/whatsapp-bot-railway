@@ -1,0 +1,16 @@
+# Node.js deps
+node_modules/
+
+# Environment variables
+.env
+
+# WhatsApp-web.js cache y auth
+.wwebjs_*
+
+# IDE
+.vscode/
+.idea/
+
+# SO
+.DS_Store
+Thumbs.db
